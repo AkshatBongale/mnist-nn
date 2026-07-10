@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# uv / virtual env
+.venv/
+
+# Project outputs
+data/              # downloaded MNIST dataset
+runs/              # TensorBoard logs
+*.pt               # saved model checkpoints (e.g. mnist_model.pt)
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store          # macOS
+*~                 # Linux editor backups
